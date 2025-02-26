@@ -5,7 +5,8 @@ Original repository: https://github.com/hhn2/cxc-2025
 ### Table of Contents
 * [Introduction](#Introduction)
 * [Getting Started](#Getting-Started)
-
+  
+# Introduction
 ## Inspiration
 As UberEats users, we always look for the most cost-effective way to order, knowing that food delivery is typically more expensive than dining in. This is why promotions are our top priority when ordering. While this reflects the consumer perspective, we became curious about how restaurants view promotions. After all, promotions wouldn’t exist if they weren’t also beneficial to the restaurant. We assumed that restaurants would only offer discounts when they help increase overall earnings. However, determining whether a promotion actually leads to higher profits can be challenging.
 
@@ -21,7 +22,7 @@ The Potential Earnings Prediction Model was also built using XGBoost, leveraging
 
 By comparing predicted potential earnings with actual earnings, restaurants can pinpoint underperforming hours, uncover revenue gaps, and optimize strategies to maximize profitability. And we decided to make these times a 'promotion-giving time'. 
 
-## Challenges we ran into
+## Challenges
 The greatest challenge was getting the free Weather API for the large data we have. With millions of data points, it was hard to make API calls for the weather at the specific time. However, we were able to generalize the weather by using daily weather instead of hourly weather at a certain city. 
 
 ## Accomplishments that we're proud of
@@ -33,16 +34,16 @@ We gained valuable experience in time-series data analysis and the implementatio
 ## What's next for PromoPulse
 Our next step is expanding PromoPulse to help future restaurant owners by incorporating location-based sales estimation. This feature would allow entrepreneurs to predict potential earnings at different locations before opening, helping them make informed decisions about restaurant placement. We also plan to integrate hourly weather APIs for more accurate predictions and develop additional models that can suggest optimal promotion types.
 
-## Getting Started
+# Getting Started
 To get started with this project, you'll need to clone the repository and set up a virtual environment. This will allow you to install the required dependencies without affecting your system-wide Python installation.
 
 ### Cloning the Repository
 
-    git clone https://github.com/hhn2/cxc-2025.git
+    git clone https://github.com/jkmathilda/PromoPulse.git
 
 ### Setting up a Virtual Environment
 
-    cd ./cxc-2025
+    cd ./PromoPulse
 
     pyenv versions
 
@@ -67,8 +68,6 @@ To get started with this project, you'll need to clone the repository and set up
 
     deactivate
 
-
-# Images
 
 
 
