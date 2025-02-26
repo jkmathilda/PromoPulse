@@ -1,4 +1,4 @@
-# PromoPulse - cxc2025
+# PromoPulse
 
 ### Table of Contents
 * [Introduction](#Introduction)
