@@ -1,5 +1,7 @@
 # PromoPulse
 
+Original repository: https://github.com/hhn2/cxc-2025
+
 ### Table of Contents
 * [Introduction](#Introduction)
 * [Getting Started](#Getting-Started)
