@@ -1,6 +1,7 @@
 # PromoPulse
 
 Original repository: https://github.com/hhn2/cxc-2025
+
 Demo Link: promopulse.streamlit.app
 
 ## Table of Contents
